@@ -1,0 +1,49 @@
+.articleSection {
+  padding: 90px;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.articleSection h2 {
+  padding-left: 20px;
+}
+
+.articlesInDetail {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.articlesCon {
+  width: 22.3%;
+  background-color: rgb(246, 246, 246);
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.articleImage {
+  width: 100%;
+  height: 240px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.articlesDescriptionContainer h6,
+p {
+  color: grey;
+}
+
+.articlesDescriptionContainer p {
+  font-size: 15px;
+}
+
+.articlesDescriptionContainer {
+  padding-left: 25px;
+}
+
+.articlesDescriptionContainer h4 {
+  font-size: 16.5px;
+}

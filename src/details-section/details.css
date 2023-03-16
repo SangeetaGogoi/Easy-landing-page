@@ -1,0 +1,31 @@
+.details {
+  background-color: rgb(249, 249, 249);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.detailsUpperSection {
+  height: 35%;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.detailsLowerSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 65%;
+  padding: 100px;
+}
+
+.onlineBankingSection,
+.budgetingSection,
+.onboardingSection,
+.managementSection {
+  width: 40%;
+}

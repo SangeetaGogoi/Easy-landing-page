@@ -1,0 +1,42 @@
+.introSection {
+  background-color: rgb(245, 245, 238);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.descriptions,
+.imageSection {
+  width: 50%;
+  padding: 100px;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+p {
+  font-size: 17px;
+}
+
+.descriptions button {
+  width: 30%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.backgroundPattern {
+  width: 60%;
+  height: 110%;
+  position: absolute;
+  top: 2px;
+  right: 0.5px;
+}
+
+.mobileImages {
+  position: absolute;
+  top: 2px;
+  right: 0.5px;
+}

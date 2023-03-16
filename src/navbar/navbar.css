@@ -1,0 +1,35 @@
+.navbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.leftBar {
+  width: 14%;
+}
+
+.middleBar {
+  width: 32%;
+  padding-right: 30px;
+}
+
+.middleContent {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.rightBar {
+  width: 12%;
+}
+
+.registerButton {
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  border: 2px pink;
+  background-color: rgb(142, 175, 142);
+}
